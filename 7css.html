@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 CSS</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="bg-black : text-white">
+    <header class="flex : justify-between : p-5">
+        <div class="text-4xl : text-orange-400">
+            <h1>Food<span class="text-white : font-bold">Blog</span></h1>
+        </div>
+        <nav class="flex : items-center : gap-5">
+            <ul class="flex : items-center : gap-4 : text-xl : font-semibold">
+                <li> <a href="#" class="hover:text-violet-600">Home</a></li>
+                <li> <a href="#" class="hover:text-violet-600">About Us</a></li>
+                <li> <a href="#" class="hover:text-violet-600">Contact</a></li>
+                <li> <a href="#" class="hover:text-violet-600">More</a></li>
+            </ul>
+            <button class="text:xl py-2 :py-4 : leading-1 : border-2 : border-violet-600 : rounded-3xl :hover:text-white hover:bg-violet-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-violet-600 focus:ring-offset-2">Login</button>
+        </nav>
+    </header> 
+    <main>
+        <section class="relative">
+            <div>
+                <img src="hotel.jpg" alt="image" class="w-screen : h-screen"/>
+            </div>
+
+            <div class="absolute : top-2/4 : right-1/2 :translate-x-1/2 : bg-black : bg-opacity-85 : rounded-lg : p-5 : text-center">
+                <h1 class="text-5xl : font-bold : pb-3">Welcome to Our Food Block</h1>
+                <p class="text-lg">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae laudantium tenetur minus, quis voluptate quas explicabo perspiciatis fugit labore reprehenderit maxime? Sapiente accusantium, corrupti vel reiciendis beatae eaque rerum odit?
+                </p>
+            </div>
+        </section>
+        <section class="my-10">
+            <div class="grid : grid-cols-7 : gap-5">
+                <div class="flex : items-center : flex-col : pb-2">
+                    <div class="group relative : w-40 : h-40 : rounded-full : overflow-hidden : cursor-pointer : hover:border-2 hover:border-violet-600">
+                        <img src="pizza.jpeg" alt="Pizza" class="absolute : w-full :h-full : object-cover : group-hover:-rotate-180 : group-hover:transition-all : group-hover:opacity-0"/>
+                        <h3 class="text-xl : font-bold : text-center : absolute : text-violet-600 : top-2/4 : right-1/2 translate-x-1/2 : translate-y-1/2 opacity-0 group-hover:opacity-100">Pizza</h3>
+                    </div>
+                </div>
+                <div class="flex: items-center : flex-col : pb-2">
+                    <div class="group relative : w-40 : h-40 : rounded-full : group-hover:rotate-180 : group-hover: transition-all: group-hover:opacity-0">
+                        <img src="cocktail.jpeg" alt="cocktail" class="absolute : w-full :h-full : object-cover : group-hover:-rotate-180 : group-hover:transition-all : group-hover:opacity-0"/>
+                        <h3 class="text-xl : font-bold : text-center : absolute : text-violet-600 : top-2/4 : right-1/2 : translate-x-1/2 : -translate-y-1/2 opacity-0 group-hover:opacity-100">Cocktail</h3>
+                    </div>
+                </div>
+                <div class="flex : items-center : flex-col : pb-2">
+                    <div class="group relative : w-40 : h-40 : rounded-full : overflow-hidden : cursor-pointer : hover:border-2 hover:border-violet-600">
+                        <img src="cake.webp" alt="Cake" class="absolute : w-full :h-full : object-cover : group-hover:-rotate-180 : group-hover:transition-all : group-hover:opacity-0"/>
+                        <h3 class="text-xl : font-bold : text-center : absolute : text-violet-600 : top-2/4 : right-1/2 : translate-x-1/2 : -translate-y-1/2 opacity-0 group-hover:opacity-100">Cake</h3>
+                    </div>
+                </div>
+                <div class="flex : items-center : flex-col : pb-2">
+                    <div class="group relative : w-40 : h-40 : rounded-full : overflow-hidden : cursor-pointer : hover:border-2 hover:border-violet-600">
+                        <img src="chocolate.jpg" alt="chocolate" class="absolute : w-full :h-full : object-cover : group-hover:-rotate-180 : group-hover:transition-all : group-hover:opacity-0"/>
+                        <h3 class="text-xl : font-bold : text-center : absolute : text-violet-600 : top-2/4 : right-1/2 translate-x-1/2 : translate-y-1/2 opacity-0 group-hover:opacity-100">Chocolate</h3>
+                    </div>
+                </div>
+                <div class="flex : items-center : flex-col : pb-2">
+                    <div class="group relative : w-40 : h-40 : rounded-full : overflow-hidden : cursor-pointer : hover:border-2 hover:border-violet-600">
+                        <img src="fruits.jpeg" alt="fruits" class="absolute : w-full :h-full : object-cover : group-hover:-rotate-180 : group-hover:transition-all : group-hover:opacity-0"/>
+                        <h3 class="text-xl : font-bold : text-center : absolute : text-violet-600 : top-2/4 : right-1/2 translate-x-1/2 : translate-y-1/2 opacity-0 group-hover:opacity-100">Fruit</h3>
+                    </div>
+                </div>
+                <div class="flex : items-center : flex-col : pb-2">
+                    <div class="group relative : w-40 : h-40 : rounded-full : overflow-hidden : cursor-pointer : hover:border-2 hover:border-violet-600">
+                        <img src="burger.avif" alt="burger" class="absolute : w-full :h-full : object-cover : group-hover:-rotate-180 : group-hover:transition-all : group-hover:opacity-0"/>
+                        <h3 class="text-xl : font-bold : text-center : absolute : text-violet-600 : top-2/4 : right-1/2 translate-x-1/2 : translate-y-1/2 opacity-0 group-hover:opacity-100">Burger</h3>
+                    </div>
+                </div>
+                <div class="flex : items-center : flex-col : pb-2">
+                    <div class="group relative : w-40 : h-40 : rounded-full : overflow-hidden : cursor-pointer : hover:border-2 hover:border-violet-600">
+                        <img src="ice-cream.jpeg" alt="ice-cream" class="absolute : w-full :h-full : object-cover : group-hover:-rotate-180 : group-hover:transition-all : group-hover:opacity-0"/>
+                        <h3 class="text-xl : font-bold : text-center : absolute : text-violet-600 : top-2/4 : right-1/2 translate-x-1/2 : translate-y-1/2 opacity-0 group-hover:opacity-100">Ice Cream</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>   
+</body>
+</html>
